@@ -1,0 +1,103 @@
+/* Newsreader Font  */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;700&display=swap');
+/* Permanent Marker Font */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  font-family: 'Newsreader', serif;
+  background-color: grey;
+  text-align: center;
+}
+.heading {
+  color: #000;
+  font-family: 'Permanent Marker', 'cursive';
+}
+.calculator {
+  margin-top: 8em;
+  width: 300px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f60f09;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+.calculator-display {
+  border-color: #000;
+  background-color: #fff;
+}
+
+.clear,
+.equation-solver {
+  color: #000;
+  background-color: #ffa600;
+  border-color: #000;
+}
+.clear:hover,
+.equation-solver:hover {
+  color: #fff;
+  background-color: #0059ff;
+  border-color: #fff;
+  cursor: pointer;
+}
+.clear:active,
+.equation-solver:active {
+  background-color: #ffa600;
+}
+
+tr {
+  border: none;
+  text-align: center;
+}
+td {
+  border-radius: 5px;
+  border: 2px solid;
+}
+
+.memory {
+  color: #f60f09;
+  border-color: #000;
+  background-color: #09f0f6;
+}
+.memory:hover {
+  color: #09f0f6;
+  background-color: #f60f09;
+  border-color: #fff;
+  cursor: pointer;
+}
+.memory:active {
+  background-color: #09f0f6;
+}
+
+.number,
+.decimal {
+  color: #ffa600;
+  background-color: #000;
+  border-color: #000;
+}
+.number:hover,
+.decimal:hover {
+  color: #0059ff;
+  background-color: #fff;
+  border-color: #0059ff;
+  cursor: pointer;
+}
+.number:active,
+.decimal:active {
+  background-color: #000;
+}
+
+.arithmetic-operator {
+  color: #000;
+  background-color: #12b2ed;
+  border-color: #000;
+}
+.arithmetic-operator:hover {
+  color: #fff;
+  background-color: #ed4d12;
+  border-color: #fff;
+  cursor: pointer;
+}
+.arithmetic-operator:active {
+  background-color: #12b2ed;
+}

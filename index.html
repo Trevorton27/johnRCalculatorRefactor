@@ -4,45 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="styles.css">
-
-    <title>SDMM Calculator Project 3</title>
+    <title>Calculator App</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="calculator-grid">
-        <div class="calculator-results field-entry-result" id="field-entry-result">Press Buttons to Enter your numbers and operators.</div>
-        <div class="calculator-results field-calculator-history" id="field-calculator-history">Calculator History</div>
-        <div class="calculator-item button-clear-reset" id="button-clear-reset">AC</div>
-        <div class="calculator-item button-plus-minus" id="button-plus-minus" >
-            <img src="img/plus minus sign.gif">
-        </div>
-        <div class="calculator-item button-percent" id="button-percent">%</div>
-        <div class="calculator-operator button-divide" id="button-divide">
-            <img src="img/divide symbol horizontal.gif">
-        </div>
-        <div class="calculator-item button-7" id="button-7">7</div>
-        <div class="calculator-item button-8" id="button-8">8</div>
-        <div class="calculator-item button-9" id="button-9">9</div>
-        <div class="calculator-operator button-multiply" id="button-multiply">X</div>
-        <div class="calculator-item button-4" id="button-4">4</div>
-        <div class="calculator-item button-5" id="button-5">5</div>
-        <div class="calculator-item button-6" id="button-6">6</div>
-        <div class="calculator-operator button-minus" id="button-minus">-</div>
-        <div class="calculator-item button-1" id="button-1">1</div>
-        <div class="calculator-item button-2" id="button-2">2</div>
-        <div class="calculator-item button-3" id="button-3">3</div>
-        <div class="calculator-operator button-plus" id="button-plus">+</div>
-        <div class="calculator-item button-0" id="button-0">0</div>
-        <div class="calculator-item button-period" id="button-period">.</div>
-        <div class="calculator-operator button-equal" id="button-equal">=</div>
-
-        <div class="footer"><a href="https://github.com/EncompassingResidential/John-Calculator" target="_blank">John's Calculator GitHub link to code repository is here</a>
-        </div>
-
-        </div>
+    <table class="calculator">
+        <tr class="calculator-row">
+            <td class="clear">C</td>
+            <td colspan="3" class="calculator-display">0</td>
+        </tr>
+        <tr class="calculator-row">
+            <td class="memory" title="memory save">m+</td>
+            <td class="memory" title="memory clear">m-</td>
+            <td class="memory" title="memory recall">mr</td>
+            <td class="arithmetic-operator" title="add">+</td>
+        </tr>
+        <tr class="calculator-row">
+            <td class="number">7</td>
+            <td class="number">8</td>
+            <td class="number">9</td>
+            <td class="arithmetic-operator" title="subtract">-</td>
+        </tr>
+        <tr class="calculator-row">
+            <td class="number">4</td>
+            <td class="number">5</td>
+            <td class="number">6</td>
+            <td class="arithmetic-operator" title="multiply">×</td>
+        </tr>
+        <tr class="calculator-row">
+            <td class="number">1</td>
+            <td class="number">2</td>
+            <td class="number">3</td>
+            <td class="arithmetic-operator" title="divide">÷</td>
+        </tr>
+        <tr class="calculator-row">
+            <td class="decimal">.</td>
+            <td class="number">0</td>
+            <td class="equalsButton" colspan="2">=</td>
+        </tr>
+    </table>
     <script src="calculator.js"></script>
-
 </body>
 </html>
